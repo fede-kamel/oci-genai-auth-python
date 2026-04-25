@@ -5,7 +5,6 @@ from __future__ import annotations
 
 from .auth import (
     HttpxOciAuth,
-    OciAuthRefreshError,
     OciInstancePrincipalAuth,
     OciResourcePrincipalAuth,
     OciSessionAuth,
@@ -24,7 +23,6 @@ from .frameworks import (
 __all__ = [
     # Auth
     "HttpxOciAuth",
-    "OciAuthRefreshError",
     "OciInstancePrincipalAuth",
     "OciResourcePrincipalAuth",
     "OciSessionAuth",
